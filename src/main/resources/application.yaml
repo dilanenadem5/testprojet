@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: gestionscolaire
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://localhost:3306/gestionscolair
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+    port: 8080
+    servlet:
+      context-path: /api
